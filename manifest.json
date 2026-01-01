@@ -1,11 +1,19 @@
 {
   "name": "Categorical Heat Map",
+  "description": "Google Maps categorical heat map with opacity",
   "organization": "James BI",
-  "description": "Community visualization plugin for Looker Studio",
-  "visualization": {
-    "id": "com_jamesbi_categorical_heat_map",
-    "label": "Categorical Heat Map",
-    "type": "COMMUNITY",
-    "url": "https://james-bi.github.io/categorical-heat-map/index.html"
-  }
+  "logoUrl": "https://james-bi.github.io/categorical-heat-map/logo.png",
+  "supportUrl": "https://github.com/james-bi/categorical-heat-map",
+  "privacyPolicyUrl": "https://github.com/james-bi/categorical-heat-map",
+  "components": [
+    {
+      "id": "categorical_heat_map",
+      "name": "Categorical Heat Map",
+      "description": "Heat map using categories and opacity",
+      "resource": {
+        "js": "https://james-bi.github.io/categorical-heat-map/bundle.js",
+        "config": "https://james-bi.github.io/categorical-heat-map/config.json"
+      }
+    }
+  ]
 }
