@@ -1,13 +1,10 @@
 {
-  "name": "24·7 Data Categorical Heat Map",
-  "organization": "24·7 Data",
-  "description": "Google Maps heat-style visualization with categorical colors and opacity-based density",
+  "name": "Categorical Heat Map",
+  "organization": "James BI",
+  "description": "Community visualization plugin for Looker Studio",
   "visualization": {
     "id": "categorical_heat_map",
     "type": "COMMUNITY",
     "url": "index.html"
-  },
-  "logoUrl": "https://247-data.com/247_base_horizontal_day_time.svg",
-  "supportUrl": "https://247-data.com/contact.html",
-  "privacyPolicyUrl": "https://247-data.com/cookies.html"
+  }
 }
