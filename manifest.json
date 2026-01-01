@@ -4,7 +4,8 @@
   "description": "Google Maps heat-style visualization with categorical colors and opacity-based density",
   "visualization": {
     "id": "categorical_heat_map",
-    "type": "COMMUNITY"
+    "type": "COMMUNITY",
+    "url": "index.html"
   },
   "logoUrl": "https://247-data.com/247_base_horizontal_day_time.svg",
   "supportUrl": "https://247-data.com/contact.html",
