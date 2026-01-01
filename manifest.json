@@ -1,10 +1,10 @@
 {
   "name": "Categorical Heat Map",
   "organization": "James BI",
-  "description": "Looker Studio community visualization",
-
+  "description": "Community visualization plugin for Looker Studio",
   "visualization": {
     "id": "com_jamesbi_categorical_heat_map",
+    "label": "Categorical Heat Map",
     "type": "COMMUNITY",
     "url": "https://james-bi.github.io/categorical-heat-map/index.html"
   }
