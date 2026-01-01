@@ -2,9 +2,14 @@
   "name": "Categorical Heat Map",
   "organization": "James BI",
   "description": "Community visualization plugin for Looker Studio",
-  "visualization": {
-    "id": "categorical_heat_map",
-    "type": "COMMUNITY",
-    "url": "index.html"
-  }
+  "version": "1.0.0",
+  "components": [
+    {
+      "id": "categorical_heat_map",
+      "name": "Categorical Heat Map",
+      "description": "Google Maps categorical heat map with opacity-based density",
+      "type": "VISUALIZATION",
+      "url": "index.html"
+    }
+  ]
 }
