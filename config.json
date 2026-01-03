@@ -1,0 +1,139 @@
+{
+  "data": [
+    {
+      "id": "concepts",
+      "label": "Map Data",
+      "elements": [
+        {
+          "id": "latitude",
+          "label": "Latitude",
+          "type": "METRIC",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "id": "longitude",
+          "label": "Longitude",
+          "type": "METRIC",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "id": "category",
+          "label": "Category",
+          "type": "DIMENSION",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "id": "frequency",
+          "label": "Frequency (Optional)",
+          "type": "METRIC",
+          "options": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ]
+    }
+  ],
+  "style": [
+    {
+      "id": "mapSettings",
+      "label": "Map Settings",
+      "elements": [
+        {
+          "id": "zoomLevel",
+          "label": "Initial Zoom Level",
+          "type": "SELECT_SINGLE",
+          "defaultValue": "2",
+          "options": [
+            {"label": "World", "value": "2"},
+            {"label": "Continent", "value": "4"},
+            {"label": "Country", "value": "6"},
+            {"label": "City", "value": "10"},
+            {"label": "Street", "value": "15"}
+          ]
+        },
+        {
+          "id": "mapLatCenter",
+          "label": "Center Latitude",
+          "type": "TEXTINPUT",
+          "defaultValue": "0"
+        },
+        {
+          "id": "mapLngCenter",
+          "label": "Center Longitude",
+          "type": "TEXTINPUT",
+          "defaultValue": "0"
+        }
+      ]
+    },
+    {
+      "id": "heatmapSettings",
+      "label": "Heatmap Settings",
+      "elements": [
+        {
+          "id": "circleRadius",
+          "label": "Point Radius (pixels)",
+          "type": "TEXTINPUT",
+          "defaultValue": "50"
+        },
+        {
+          "id": "maxOpacityValue",
+          "label": "Maximum Opacity",
+          "type": "TEXTINPUT",
+          "defaultValue": "0.8"
+        },
+        {
+          "id": "minOpacityValue",
+          "label": "Minimum Opacity",
+          "type": "TEXTINPUT",
+          "defaultValue": "0.2"
+        }
+      ]
+    },
+    {
+      "id": "categoryColors",
+      "label": "Category Colors",
+      "elements": [
+        {
+          "id": "catColor1",
+          "label": "Category Color 1",
+          "type": "TEXTINPUT",
+          "defaultValue": "#FF6B6B"
+        },
+        {
+          "id": "catColor2",
+          "label": "Category Color 2",
+          "type": "TEXTINPUT",
+          "defaultValue": "#4ECDC4"
+        },
+        {
+          "id": "catColor3",
+          "label": "Category Color 3",
+          "type": "TEXTINPUT",
+          "defaultValue": "#45B7D1"
+        },
+        {
+          "id": "catColor4",
+          "label": "Category Color 4",
+          "type": "TEXTINPUT",
+          "defaultValue": "#FFA07A"
+        },
+        {
+          "id": "catColor5",
+          "label": "Category Color 5",
+          "type": "TEXTINPUT",
+          "defaultValue": "#98D8C8"
+        }
+      ]
+    }
+  ]
+}
